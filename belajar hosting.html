@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tentang Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            border-radius: 15px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid white;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 20px;
+            background: #00c6ff;
+            color: black;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Rizal Ananta</h1>
+        <p>Mahasiswa | Web Developer Pemula</p>
+        <p>Sedang belajar HTML, CSS, dan JavaScript untuk membuat website yang menarik.</p>
+        <a href="#" class="btn">Hubungi Saya</a>
+    </div>
+
+</body>
+</html>
